@@ -1,0 +1,171 @@
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.main-content {
+  margin-top: 10vh;
+}
+.main-content .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 140rem;
+  margin: auto;
+  align-items: center;
+}
+.main-content .container .header {
+  margin-bottom: 3rem;
+}
+.main-content .container .header h1 {
+  font-size: 6rem;
+}
+
+.planets {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.planets .planet-card {
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  width: 40rem;
+  height: 60rem;
+  margin-right: 2rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  -webkit-animation: fade 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+.planets .planet-card img {
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+.planets .planet-card1 {
+  background: #09002b;
+}
+.planets .planet-card1 h2 {
+  color: white;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.planets .planet-card1 p {
+  color: #e7e7e7;
+  font-size: 1.3rem;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 1rem;
+}
+.planets .planet-card2 {
+  background: #2c2785;
+}
+.planets .planet-card2 h2 {
+  color: white;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.planets .planet-card2 p {
+  color: #e7e7e7;
+  font-size: 1.3rem;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 1rem;
+}
+.planets .planet-card3 {
+  background: #540d37;
+}
+.planets .planet-card3 h2 {
+  color: white;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.planets .planet-card3 p {
+  color: #e7e7e7;
+  font-size: 1.3rem;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.btn-holder .generate-btn {
+  border: none;
+  padding: 2rem 3rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  margin-right: 2rem;
+}
+.btn-holder .clear-btn {
+  border: none;
+  padding: 2rem 3rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  background: #5c5c5c;
+  color: white;
+}
+
+.navbar {
+  padding: 2rem;
+  background: #f8f9fa;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 140rem;
+  margin: auto;
+  align-items: center;
+}
+.navbar .container .logo__text {
+  font-size: 3rem;
+}
+.navbar .container .logo__text .sub-color {
+  color: #007bff;
+}
+.navbar .container .links {
+  display: flex;
+  align-items: center;
+}
+.navbar .container .links li, .navbar .container .links a {
+  color: black;
+  font-size: 2rem;
+  margin-left: 2.5rem;
+}/*# sourceMappingURL=main.css.map */
